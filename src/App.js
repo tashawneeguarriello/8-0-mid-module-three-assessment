@@ -1,7 +1,12 @@
 import "./App.css";
+import GarageItems from "./components/GarageItems";
 
-const App = () => {
-  return <h1>Hello, world!</h1>;
-};
+function App() {
+  return (
+    <div className="App">
+      <GarageItems title={"My Garage Sale"} />
+    </div>
+  );
+}
 
 export default App;
